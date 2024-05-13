@@ -1,0 +1,22 @@
+.aboutBox{
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 1rem 1.25rem;
+}
+
+.aboutIcon{
+    font-size: 1.5rem;
+    color: var(--plugin-color);
+    margin-bottom: var(--mb-0-5);
+}
+
+.aboutTitle{
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+}
+
+.aboutSubTitle{
+    font-size: var(--tiny-font-size);
+}
