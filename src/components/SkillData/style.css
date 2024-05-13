@@ -1,0 +1,19 @@
+.skillData{
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.bx{
+    font-size: 1rem;
+    color: var(--title-color);
+}
+
+.skillName{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    line-height: 18px;
+}
+
+.skillLevel{
+    font-size: var(--tiny-font-size);
+}
