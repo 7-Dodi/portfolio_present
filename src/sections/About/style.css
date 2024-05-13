@@ -1,0 +1,22 @@
+.aboutContainer{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.aboutImage{
+    width: 350px;
+    border-radius: 1.5rem;
+    justify-self: center;
+}
+
+.aboutInfo{
+    grid-template-columns: repeat(3, 140px);
+    gap: 0.5rem;
+    margin-bottom: var(--mb-2);
+}
+
+.aboutDescription{
+    padding: 0 4rem 0 0;
+    margin-bottom: var(--mb-2-5);
+}
