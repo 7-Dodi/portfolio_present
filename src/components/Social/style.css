@@ -1,0 +1,9 @@
+.homeSocial-Icon{
+    font-size: 1.25rem;
+    transition: all 0.3s;
+    color: var(--plugin-color);
+}
+
+.homeSocial-Icon:hover{
+    transform: scale(1.3);
+}
