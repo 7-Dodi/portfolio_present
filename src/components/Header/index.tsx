@@ -41,11 +41,6 @@ export const Header = () => {
                             </a>
                         </li>
                         <li className="navItem">
-                            <a href="#funFacts" className={`navLink ${activeLink === 'funFacts' ? 'activeLink' : ''}`} onClick={()=> handleNavLinkClick("funFacts")}>
-                                <i className="uil uil-message navIcon"></i>Fatos engraçados
-                            </a>
-                        </li>
-                        <li className="navItem">
                             <a href="#contact" className={`navLink ${activeLink === 'contact' ? 'activeLink' : ''}`} onClick={()=> handleNavLinkClick("contact")}>
                                 <i className="uil uil-message navIcon"></i>Contatos
                             </a>
