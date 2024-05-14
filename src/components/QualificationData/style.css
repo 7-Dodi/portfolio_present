@@ -1,0 +1,36 @@
+.qualificationData{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.qualificationTitle{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.qualificationSubTitle{
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.qualificationCalendar{
+    font-size: var(--small-font-size);
+}
+
+.qualificationRound{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--plugin-color);
+    border-radius: 50%;
+}
+
+.qualificationLine{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--text-color);
+    transform: translate(6px, -7px);
+}
