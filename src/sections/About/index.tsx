@@ -21,11 +21,11 @@ export const About = () => {
                     </div>
 
                     <p className="aboutDescription">
-                        I'm a full-stack developer, creating web systems with a UI/UX user interface. I'm a student studying Systems Analysis and Development (ADS), I have a few years' experience and many clients are satisfied with the projects I've completed.
+                        Sou um desenvolvedor full-stack, criando sistemas web com interface de usuário UI/UX. Sou estudante de Análise e Desenvolvimento de Sistemas (ADS), tenho alguns anos de experiência e muitos clientes estão satisfeitos com os projetos que realizei.
                     </p>
 
                     <a download="" href={CV} className="button button--flex">
-                        Download CV 
+                        Baixar Currículo  
                         <img src={file} alt="file" />
                     </a>
                 </div>

@@ -10,13 +10,13 @@ export const Data = () =>{
             </h1>
             
 
-            <h3 className="homeSubTitle">Programmer full-stack</h3>
+            <h3 className="homeSubTitle">Programador full-stack</h3>
             <p className="homeDescription">
-                I'm a creative programmer living in Missão Velha, and I'm very passionate and dedicated to my work.
+            Sou um programador criativo que mora em Missão Velha, e sou muito apaixonado e dedicado ao meu trabalho.
             </p>
 
             <a href="#contact" className="button button--flex">
-                Say Hello
+                Diga olá
                 <img src={send} alt="svg" />
             </a>
         </div>

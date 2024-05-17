@@ -23,7 +23,7 @@ export const ServiceContent:React.FC<Props> = ({icon, serviceTitle, modalTitle, 
                 <h3 className="serviceTitle">{serviceTitle}</h3>
             </div>
 
-            <span className="servicesButton" onClick={()=>handleSetToggle(true)}>View More
+            <span className="servicesButton" onClick={()=>handleSetToggle(true)}>Ver mais
                 <i className="uil uil-arrow-right service__button-icon"></i>
             </span>
 

@@ -8,13 +8,13 @@ export const Contact = () => {
             <span className="sectionSubTitle">Me contate</span>
         
             <div className="contactContainer">
-                    <h3 className="contactContent-title">Talk to me</h3>
+                    <h3 className="contactContent-title">Fale comigo</h3>
 
                     <div className="contactContent-info grid">
                         <Contactcard 
                             key="email" 
                             title="E-mail" 
-                            data="Send me an email" 
+                            data="Envie-me um e-mail" 
                             icon="envelope-upload" 
                             link="mailto:douglassilvaaraujo76@gmail.com"
                         />
@@ -22,7 +22,7 @@ export const Contact = () => {
                         <Contactcard 
                             key="whatsapp" 
                             title="WhatsApp" 
-                            data="Message me on WhatsApp" 
+                            data="Envie-me uma mensagem no WhatsApp" 
                             icon="whatsapp" 
                             link="https://wa.me/5588996409091?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20trabalhos."
                         />
@@ -30,7 +30,7 @@ export const Contact = () => {
                         <Contactcard 
                             key="discord" 
                             title="Discord" 
-                            data="Join my community" 
+                            data="Junte-se à minha comunidade" 
                             icon="discord" 
                             link="https://discord.gg/cQ4uYGQ6"
                         />

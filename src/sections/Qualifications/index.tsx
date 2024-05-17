@@ -17,11 +17,11 @@ export const Qualifications = () => {
             <div className="qualificationContainer container">
                 <div className="qualificationTabs">
                     <div className={toggleQualification === "education" ? "qualificationButton qualificationActive button--flex" : "qualificationButton button--flex"} onClick={()=> handleQualification("education")}>
-                        <i className="uil uil-graduation-cap qualificationIcon"></i>Education
+                        <i className="uil uil-graduation-cap qualificationIcon"></i>Educação
                     </div>
                     
                     <div className={toggleQualification === "experience" ? "qualificationButton qualificationActive button--flex" : "qualificationButton button--flex"} onClick={()=> handleQualification("experience")}>
-                        <i className="uil uil-briefcase-alt qualificationIcon"></i>Experience
+                        <i className="uil uil-briefcase-alt qualificationIcon"></i>Experiência
                     </div>
                 </div>
 

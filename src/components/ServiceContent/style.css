@@ -17,7 +17,7 @@
 }
 
 .serviceTitle{
-    font-size: var(--h3-font-size);
+    font-size: 1rem;
     margin-bottom: var(--mb-1);
     font-weight: var(--font-medium);
 }
@@ -134,8 +134,8 @@
         padding: 0;
     }
 
-    .serviceModal-title{
-        font-size: 1rem;
+    .serviceTitle{
+        font-size: 0.75rem;
     }
 }
 

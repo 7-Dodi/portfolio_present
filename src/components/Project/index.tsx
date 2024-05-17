@@ -21,7 +21,7 @@ export const Project:React.FC<Props> = ({image, title, description, link, info})
             <img className="projetoImage" src={image} alt="Imagem do projeto"/>
             <h3 className="projetoTitle">{title}</h3>
 
-            <span className="projetoButton" onClick={()=>handleSetStateProject(true)}>View More
+            <span className="projetoButton" onClick={()=>handleSetStateProject(true)}>Ver mais
                 <i className="uil uil-arrow-right projeto__button-icon"></i>
             </span>
 

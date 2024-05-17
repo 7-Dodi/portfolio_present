@@ -24,9 +24,9 @@ export const projectsData: Project[] = [
     {
         id: 1,
         title: "GuardianEye",
-        description: "Database II discipline project: Creation of a frontend and banckend application, with Node.js, Express, Mongoose, MongoDB Atlas and AuraDB.",
+        description: "Projeto da disciplina de Banco de Dados II: Criação de um aplicativo frontend e banckend, com Node.js, Express, Mongoose, MongoDB Atlas e AuraDB",
         image: guadianEye,
-        info: ["Web system with Frontend and Backend", "Frontend: HTML, CSS and JavaScript", "Backend: Express, JavaScript, Mongo and Neo4j", "Consumption of external APIs (Leaflet end Mongo Charts)", "Consumption of the system's own API", "Polyglot system (MongoDB and Neo4j)"],
+        info: ["Sistema Web com front-end e back-end", "Frontend: HTML, CSS and JavaScript", "Backend: Express, JavaScript, Mongo and Neo4j", "Consumo de APIs externas (Leaflet e Mongo Charts)", "Consumo da API do próprio sistema", "Sistema poliglota (MongoDB e Neo4j)"],
         category: ["all", "web", "api"],
         link: "https://github.com/7-Dodi/GuardianEye.git"
     },
@@ -35,70 +35,70 @@ export const projectsData: Project[] = [
         title: "PokeLoopis",
         description: "Projeto que consiste em um jogo de acertos, o usuário irá receber uma dica de qual o tipo de pokémon (ou outra a sua escolha) e terá que adivinhar qual pokémon está oculto.",
         image: pokeLoopis,
-        info: ["Web system", "Frontend: HTML, CSS and JavaScript", "Consumption of external APIs (Poke API)", "System with status management"],
+        info: ["Sistema Web", "Frontend: HTML, CSS and JavaScript", "Consumo de uma API externa (Poke API)", "Sistema com gerenciamento de status"],
         category: ["all", "web"],
         link: "https://github.com/7-Dodi/PokeLoopis.git"
     },
     {
         id: 3,
         title: "GarageMaster",
-        description: "Development of a web application using Java EE, with JSP, and data persistence using JDBC.",
+        description: "Desenvolvimento de um aplicativo da Web usando Java EE, com JSP, e persistência de dados usando JDBC",
         image: garageMaster,
-        info: ["Web system with Frontend and Backend", "Frontend: HTML, JSP, CSS and JavaScript", "Backend: Java Web, Java, PostegreSQL", "System with login management"],
+        info: ["Sistema Web com front-end e back-end", "Frontend: HTML, JSP, CSS and JavaScript", "Backend: Java Web, Java, PostegreSQL", "Sistema com gerenciamento de login"],
         category: ["all", "web"],
         link: "https://github.com/7-Dodi/GarageMaster.git"
     },
     {
         id: 4,
         title: "Chat_Message_App",
-        description: "Development of a web application with Google Authentication, React.JS and Firabase",
+        description: "Desenvolvimento de um aplicativo da web com Google Authentication, React.JS e Firabase",
         image: chat,
-        info: ["Web system with Frontend and Backend", "Frontend: React Js", "Backend: Firabase", "System with login management with email"],
+        info: ["Sistema Web com front-end e back-end", "Frontend: React Js", "Backend: Firabase", "Sistema com gerenciamento de login com e-mail"],
         category: ["all", "web"],
         link: "https://github.com/7-Dodi/Chat_Message_App.git"
     },
     {
         id: 5,
         title: "OneBitCoin",
-        description: "Front-end system developed with React Native",
+        description: "Sistema front-end desenvolvido com React Native",
         image: oneBitCoin,
-        info: ["Mobile application", "Use of external API", "Code with React-Native"],
+        info: ["Aplicativo móvel", "Uso de API externa", "Codifique com o React-Native"],
         category: ["all", "app"],
         link: "https://github.com/7-Dodi/OneBitCoin.git"
     },
     {
         id: 6,
         title: "Asclepius",
-        description: "Web Programming I project: Development of a Rest API, with TypeScript, Node.js and Prisma, working on the concepts of CRUD, Authentication and File Upload.",
+        description: "Projeto de Programação Web I: Desenvolvimento de uma API Rest, com TypeScript, Node.js e Prisma, trabalhando os conceitos de CRUD, autenticação e upload de arquivos",
         image: asclepius,
-        info: ["REST API developed with Prisma and Typescript", "Login management", "Authorization and access management", "File upload"],
+        info: ["API REST desenvolvida com Prisma e Typescript", "Gerenciamento de login", "Gerenciamento de autorização e acesso", "Upload de arquivo"],
         category: ["all", "api"],
         link: "https://github.com/7-Dodi/Asclepius.git"
     },
     {
         id: 7,
         title: "Api-Rest-Sqlite",
-        description: "Second activity in the Web Programming course: The project consists of developing an API with Express, TypeScript, Node, Prisma and using Sqlite as the database.",
+        description: "Segunda atividade do curso de Programação Web: O projeto consiste em desenvolver uma API com Express, TypeScript, Node, Prisma e usar Sqlite como banco de dados",
         image: apiRest,
-        info: ["REST API developed with Prisma and Typescript", "Authorization and access management"],
+        info: ["API REST desenvolvida com Prisma e Typescript", "Gerenciamento de autorização e acesso"],
         category: ["all", "api"],
         link: "https://github.com/7-Dodi/Api-Rest-Sqlite.git"
     },
     {
         id: 8,
         title: "Book-Collection-Java",
-        description: "Desktop application made in Java and connected to a relational database",
+        description: "Aplicativo de desktop feito em Java e conectado a um banco de dados relacional",
         image: book,
-        info: ["Desktop application developed with Java", "Uso de Java Swing para criar telas", "Uso de banco de dados para armazenar dados"],
+        info: ["Aplicação desktop desenvolvida com Java", "Uso de Java Swing para criar telas", "Uso de banco de dados para armazenar dados"],
         category: ["all", "app"],
         link: "https://github.com/7-Dodi/Book-Collection.git"
     },
     {
         id: 9,
         title: "Space_Defenders",
-        description: "Game made with Java, consists of classic space battle arcade",
+        description: "Jogo feito com Java, consiste em um clássico arcade de batalha espacial",
         image: space,
-        info: ["Game developed for desktop", "Application developed with Java", "Use of Java Swing to generate the design"],
+        info: ["Jogo desenvolvido para desktop", "Aplicação desenvolvida com Java", "Uso do Java Swing para gerar o design"],
         category: ["all", "app"],
         link: "https://github.com/7-Dodi/Space_Defenders.git"
     },
@@ -107,7 +107,7 @@ export const projectsData: Project[] = [
         title: "Rick end Morry",
         description: "Projeto realizado com o auxílio do API do Rick and Mory, além de bases estruturais em Html, Css e JavaScript.",
         image: rick,
-        info: ["Character list web game", "Use of HTML, CSS and JavaScript", "Use of external API (Rick and Mory API)"],
+        info: ["Jogo da web com lista de personagens", "Uso de HTML, CSS e JavaScript", "Uso de uma API externa (Rick and Mory API)"],
         category: ["all", "web"],
         link: "https://github.com/7-Dodi/Rick_and_Mory_API.git"
     },
@@ -116,7 +116,7 @@ export const projectsData: Project[] = [
         title: "Jogo-Sonic",
         description: "Jogo simples feito com HTML, CSS e Java Script. Jogo se baseia na estrutura do Jogo do Dinossauro do Google, porém apresenta o Sonic com personagem principal.",
         image: sonic,
-        info: ["Obstacle Deviation web game", "Use of HTML, CSS and JavaScript"],
+        info: ["Jogo da web de desvio de obstáculos", "Uso de HTML, CSS e JavaScript"],
         category: ["all", "web"],
         link: "https://github.com/7-Dodi/Jogo_Sonic.git"
     },

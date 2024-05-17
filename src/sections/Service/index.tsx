@@ -11,26 +11,26 @@ export const Service = () => {
                 <ServiceContent 
                     key="pagesWeb" 
                     icon="web-grid" 
-                    serviceTitle="Web Development" 
-                    modalTitle="Web Development" 
-                    modalDescription="Development of systems and sites for the Web, using reactive and static technologies." 
-                    info={["Use of reactive and static technologies", "More than two year's experience", "UI/UX-based interface development", "Database and API integration"]}
+                    serviceTitle="Desenvolvimento Web" 
+                    modalTitle="Desenvolvimento Web" 
+                    modalDescription="Desenvolvimento de sistemas e sites para a Web, usando tecnologias reativas e estáticas" 
+                    info={["Uso de tecnologias reativas e estáticas", "Mais de dois anos de experiência", "Desenvolvimento de interface baseada em UI/UX", "Integração de banco de dados e API"]}
                 />
                 <ServiceContent 
-                    key="Ux/Ui" 
+                    key="mobile" 
                     icon="arrow" 
-                    serviceTitle="Mobile Development" 
-                    modalTitle="Mobile Development" 
-                    modalDescription="Development of mobile applications with database connection and support for multiple users." 
-                    info={["Use of reactive and static technologies", "More than one year's experience", "UI/UX-based interface development"]}
+                    serviceTitle="Desenvolvimento Mobile" 
+                    modalTitle="Desenvolvimento Mobile" 
+                    modalDescription="Desenvolvimento de aplicativos móveis com conexão a banco de dados e suporte a vários usuários" 
+                    info={["Uso de tecnologias reativas e estáticas", "Mais de um ano de experiência", "Desenvolvimento de interface baseada em UI/UX"]}
                     />
                 <ServiceContent 
-                    key="visual designer" 
+                    key="api" 
                     icon="edit" 
-                    serviceTitle="API development" 
-                    modalTitle="API development" 
-                    modalDescription="API development using the REST structure, allowing access to multiple systems and integrating complex web systems." 
-                    info={["Use of REST architecture", "More than two year's experience", "Integration with multiple systems", "Authentication and access authorization", "Development of polyglot APIs"]}
+                    serviceTitle="Desenvolvimento de APIs" 
+                    modalTitle="Desenvolvimento de APIs" 
+                    modalDescription="Desenvolvimento de API usando a estrutura REST, permitindo o acesso a vários sistemas e integrando sistemas complexos da Web" 
+                    info={["Uso da arquitetura REST", "Mais de dois anos de experiência", "Integração com vários sistemas", "Autenticação e autorização de acesso", "Desenvolvimento de APIs poliglotas"]}
                 />
             </div>
         </section>
