@@ -19,7 +19,7 @@ export const Portfolio = () => {
             <h2 className="sectionTitle">Portfólio</h2>
             <span className="sectionSubTitle">Alguns dos meus trabalhos</span>
         
-            <div className="portfolioContainer container">
+            <div className="portfolioContainer">
                 <div className="portfolioButtons">
                     <span className={selectCategory === "all" ? "portfolioButton portfolioButton-active" : "portfolioButton"} onClick={()=> handleSelectCategory("all")}>Todos</span>
                     <span className={selectCategory === "web" ? "portfolioButton portfolioButton-active" : "portfolioButton"} onClick={()=> handleSelectCategory("web")}>Web</span>

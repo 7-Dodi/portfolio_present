@@ -1,5 +1,8 @@
 .portfolioContainer{
     width: 668px;
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolioButtons{
@@ -35,3 +38,23 @@
     color: var(--container-color);
     background-color: var(--plugin-color);
 }
+
+/*=============== BREAKPOINTS ===============*/
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .porfolioProjetos{
+        grid-template-columns: repeat(2, 280px);
+    }
+
+    .portfolioContainer{
+        width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .porfolioProjetos{
+        grid-template-columns: repeat(1, 0.9fr);
+    }
+  }
+  
