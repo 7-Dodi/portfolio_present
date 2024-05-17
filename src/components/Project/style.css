@@ -1,0 +1,114 @@
+.portifolioProjeto{
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--container-color);
+}
+
+.projetoImage{
+    max-width: 300px;
+    border-radius: 1.25rem;
+    margin-bottom: var(--mb-1-5);
+}
+
+.projetoTitle{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-1-5);
+}
+
+.projetoButton{
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    cursor: pointer;
+}
+
+.projeto__button-icon{
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.projeto__button-icon:hover{
+    transform: translateX(00.25rem);
+}
+
+.projetoModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: var(--z-modal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.projetoModal-active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.projetoModal-content{
+    width: 500px;
+    position: relative;
+    background-color: var(--container-color);
+    padding: 4.5rem 2.5rem 2.5rem;
+    border-radius: 1.5rem;
+}
+
+.projetoModal-close{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+}
+
+.projetoModal-title,
+.projetoModel-description{
+    text-align: center;
+}
+
+.projetoModal-title{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1);
+}
+
+.projetoModel-description{
+    font-size: var(--small-font-size);
+    padding: 0 3.5rem;
+    margin-bottom: var(--mb-2);
+}
+
+.projetoModal-projetos{
+    row-gap: 0.75rem;
+}
+
+.projetoModal-projeto{
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.projetoModal-icon{
+    color: var(--title-color);
+    font-size: 1.1rem;
+}
+
+.projetoModal-info{
+    font-size: var(--small-font-size);
+}
+
+.projetoModal-link{
+    font-size: var(--smaller-font-size);
+}
