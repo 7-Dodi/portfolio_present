@@ -15,6 +15,8 @@
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
   --plugin-color: #6563FF;
+  --plugin-color-lite: #6663ff99;
+  --aqua-color: #57BFB5;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
