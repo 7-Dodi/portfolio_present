@@ -17,3 +17,10 @@
 .skillLevel{
     font-size: var(--tiny-font-size);
 }
+
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .skillName{
+        font-size: var(--small-font-size);
+    }
+  }

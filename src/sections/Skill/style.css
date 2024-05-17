@@ -31,3 +31,30 @@
     row-gap: 1rem;
     column-gap: 2rem;
 }
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .skillsContainer{
+        grid-template-columns: max-content;
+        row-gap: 2rem;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 576px) {
+    .skillsContainer{
+        grid-template-columns: 1fr;
+    }
+
+    .skillContent{
+        padding: 1.5rem;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .skillBox{
+        column-gap: 1.25rem;
+    }
+  }
