@@ -7,11 +7,10 @@ export const Contact = () => {
             <h2 className="sectionTitle">Entre em contato</h2>
             <span className="sectionSubTitle">Me contate</span>
         
-            <div className="contactContainer container">
-                <div className="contactContent">
+            <div className="contactContainer">
                     <h3 className="contactContent-title">Talk to me</h3>
 
-                    <div className="contactContent-info">
+                    <div className="contactContent-info grid">
                         <Contactcard 
                             key="email" 
                             title="E-mail" 
@@ -37,7 +36,6 @@ export const Contact = () => {
                         />
 
                     </div>
-                </div>
             </div>
         </section>
     )

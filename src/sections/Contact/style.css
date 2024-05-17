@@ -1,5 +1,8 @@
 .contactContainer{
-    width: 768px;
+    max-width: 968px;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 3rem;
 }
 
@@ -11,10 +14,32 @@
 }
 
 .contactContent-info{
-    display: flex;
-    gap: 1rem;
+    grid-template-columns: repeat(3, 270px);
+    justify-content: center;
+    column-gap: 1.8rem;
 }
 
-.contactForm{
-    width: 360px;
-}
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .contactContent-info{
+        grid-template-columns: repeat(3, 218px);
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .contactContent-info{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contactContainer{
+        padding: 1;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .contactContent-info{
+        grid-template-columns: max-content;
+    }    
+  }
