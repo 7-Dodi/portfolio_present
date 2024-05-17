@@ -1,0 +1,38 @@
+.certificadoContainer{
+    width: 750px;
+}
+
+.certificadoContainer-item{
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    margin-bottom: var(--mb-2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--container-color);
+    transition: .3s;
+}
+
+.certificadoItem-image{
+    margin-bottom: var(--mb-2);
+}
+
+.certificadoItem-title{
+    font-size: var(--normal-font-size);
+    text-align: justify;
+    margin-bottom: var(--mb-1);
+}
+
+.certicadoButton{
+    font-size: var(--small-font-size);
+    color: var(--plugin-color);
+    transition: .3s;
+}
+
+.certicadoButton:hover{
+    transform: scale(1.1);
+    margin-left: 0.50rem;
+}
+
+.certificadoItem-icon{
+    margin-left: 0.25rem;
+    color: var(--plugin-color);
+}
