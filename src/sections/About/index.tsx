@@ -1,5 +1,5 @@
 import profile from "../../assets/profile.jpg";
-import CV from "../../assets/Currículo.pdf";
+import CV from "../../assets/pdf/Currículo.pdf";
 import file from "../../assets/files.svg";
 import { Info } from "../../components/Info";
 import "./style.css";

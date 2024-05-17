@@ -30,8 +30,8 @@ export const Qualifications = () => {
                         <QualificationData key="ADS" title="Análise e Desenvolvimento de Sistemas" subTitle="IFPB - Cajazeiras PB" data="03/2022 - present"/>
                         <QualificationData key="CursoJs" style="right" title="Curso React JS" subTitle="Hora de Codar - You Tube" data="05/2023 - 06/2023"/>
                         <QualificationData key="React" title="Curso Introdutório ao React e React Native" subTitle="IFPB - Cajazeiras PB" data="10/2023 - 10/2023"/>
-                        <QualificationData key="Hackaton" style="right" title="Curso Introdutório ao Prisma" subTitle="IFPB - Cajazeiras PB" data="10/2023 - 10/2023"/>
-                        <QualificationData key="React" title="Curso Introdutório ao Neo4j" subTitle="IFPB - Cajazeiras PB" data="10/2023 - 10/2023"/>
+                        <QualificationData key="Prisma" style="right" title="Curso Introdutório ao Prisma" subTitle="IFPB - Cajazeiras PB" data="10/2023 - 10/2023"/>
+                        <QualificationData key="Neo4j" title="Curso Introdutório ao Neo4j" subTitle="IFPB - Cajazeiras PB" data="10/2023 - 10/2023"/>
                         <QualificationData key="Hackaton" style="right" title="1° Hackthon IFPB" subTitle="IFPB - Cajazeiras PB" data="10/2023 - 10/2023"/>
                     </div>
 
