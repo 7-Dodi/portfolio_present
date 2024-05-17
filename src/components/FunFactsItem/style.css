@@ -1,9 +1,7 @@
 .funfactsItem{
     border-radius: 0.75rem;
-    padding: 1rem 1.25rem;
-    display: flex;
+    padding: 1rem 1.35rem;
     text-align: center;
-    align-items: center;
     transition: .3s;
 }
 
@@ -12,9 +10,19 @@
 }
 
 .funfactsDetails{
-    margin-left: 4rem;
     color: var(--plugin-color);
     font-size: var(--smaller-font-size);
     font-weight: var(--font-medium);
     font-family: "Cedarville Cursive", cursive;
 }
+
+@media screen and (max-width: 992px) {
+    .funfactsDetails{
+        font-size: var(--small-font-size);
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .funfactsDetails{
+        font-size: var(--normal-font-size);
+    }
+  }
