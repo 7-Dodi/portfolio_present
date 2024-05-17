@@ -3,3 +3,25 @@
     justify-content: center;
     column-gap: 1.8rem;
 }
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .serviceContainer{
+        grid-template-columns: repeat(3, 218px);
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .serviceContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .serviceContainer{
+        grid-template-columns: max-content;
+    }
+  }
