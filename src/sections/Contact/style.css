@@ -1,0 +1,20 @@
+.contactContainer{
+    width: 768px;
+    padding-bottom: 3rem;
+}
+
+.contactContent-title{
+    text-align: center;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1-5);
+}
+
+.contactContent-info{
+    display: flex;
+    gap: 1rem;
+}
+
+.contactForm{
+    width: 360px;
+}
