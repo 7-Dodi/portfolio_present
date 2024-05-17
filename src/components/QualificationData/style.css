@@ -34,3 +34,10 @@
     background-color: var(--text-color);
     transform: translate(6px, -7px);
 }
+
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .qualificationData{
+        gap: 0.5rem;
+    }
+  }
