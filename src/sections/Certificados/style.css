@@ -36,3 +36,13 @@
     margin-left: 0.25rem;
     color: var(--plugin-color);
 }
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .certificadoContainer{
+        width: initial;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+  }
