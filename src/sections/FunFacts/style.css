@@ -1,0 +1,17 @@
+.funfactsContainer{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.funFactsImage{
+    width: 360px;
+    border-radius: 1.5rem;
+    justify-self: center;
+}
+
+.funFactsInfo{
+    grid-template-columns: repeat(2, 280px);
+    gap: 1rem;
+    margin-bottom: var(--mb-1);
+}
