@@ -3,6 +3,7 @@ import "./style.css";
 
 export const Header: React.FC = () => {
     const [activeLink, setActiveLink] = useState('home'); // Inicializa o estado com o primeiro item
+    const [toggleMenu, setToggleMenu] = useState(false);
 
     const handleNavLinkClick = (link: string) => {
         setActiveLink(link);
@@ -46,7 +47,7 @@ export const Header: React.FC = () => {
             <nav className="nav container">
                 <a href="index.html" className="navLogo">Douglas Silva<span>.</span></a>
 
-                <div className="navMenu">
+                <div className={toggleMenu ? "navMenu showMenu" : "navMenu"}>
                     <ul className="navList">
                         <li className="navItem">
                             <a href="#home" className={`navLink ${activeLink === 'home' ? 'activeLink' : ''}`} onClick={() => handleNavLinkClick("home")}>
@@ -79,12 +80,10 @@ export const Header: React.FC = () => {
                             </a>
                         </li>
                     </ul>
-
-                    <i className="uil uil-times navClose"></i>
-                    <div className="navToggle">
+                </div>
+                    <div className="navToggle" onClick={()=>setToggleMenu(!toggleMenu)}>
                         <i className="uil uil-apps"></i>
                     </div>
-                </div>
             </nav>
         </header>
     );

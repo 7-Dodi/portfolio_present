@@ -58,43 +58,48 @@
 @media screen and (max-width: 768px) {
     .header{
         top: initial;
-        bottom: 0;
+        top: 0;
     }
 
     .nav{
-        height: var(--header-height);
+        height: 4rem;
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: space-around;
+        gap: 20rem;
     }
 
     .navMenu{
         position: fixed;
-        bottom: -10;
-        left: 0;
-        width: 100%;
-        height: 40%;
-        background-color: var(--body-color);
-        padding: 2rem, 1.5rem, 4rem;
+        top: 0;
+        right: -100%;
+        width: 25%;
+        margin-top: 6rem;
+        background-color: var(--plugin-color-lite);
+        padding: 2rem 1.5rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 1.5rem 1.5rem 0 0;
+        border-radius: 1.5rem 0 0 1.5rem;
         transition: .3s;
+    }
+
+    .showMenu{
+        right: 0;
+    }
+
+    .activeLink{
+        color: var(--container-color);
     }
 
     .navList{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
-    }
-
-    .navToggle, .navClose, .navIcon{
-        display: block;
     }
 
     .navIcon{
         font-size: 1.2rem;
     }
 
-    .navLogo{
-        display: none;
-    }
     .navClose{
         position: absolute;
         right: 1.3rem;
@@ -106,5 +111,36 @@
 
     .navClose:hover{
         color: var(--title-color-dark);
+    }
+
+    .navToggle{
+        font-size: 2rem;
+        color: var(--plugin-color);
+        cursor: pointer;
+    }
+
+    .navLogo{
+        font-size: 1.5rem;
+    }
+
+    .navToggle,
+    .navClose, 
+    .navIcon{
+        display: block;
+    }
+
+    .navLogo{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .navMenu{
+        padding: 2rem 0.25rem;
+    }
+
+    .navList{
+        column-gap: 0;
     }
 }
