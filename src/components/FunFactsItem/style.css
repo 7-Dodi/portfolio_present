@@ -1,0 +1,20 @@
+.funfactsItem{
+    border-radius: 0.75rem;
+    padding: 1rem 1.25rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    transition: .3s;
+}
+
+.funfactsItem:hover{
+    transform: scale(1.06);
+}
+
+.funfactsDetails{
+    margin-left: 4rem;
+    color: var(--plugin-color);
+    font-size: var(--smaller-font-size);
+    font-weight: var(--font-medium);
+    font-family: "Cedarville Cursive", cursive;
+}
