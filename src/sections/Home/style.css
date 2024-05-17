@@ -53,3 +53,46 @@
     font-size: 1.25rem;
     color: var(--text-color);
 }
+
+@media screen and (max-width: 992px) {
+    .homeContent{
+        grid-template-columns: 100px repeat(2, 1fr);
+        column-gap: 1.25rem;
+    }
+
+    .homeImg{
+        width: 250px;
+        height: 250px;
+    }
+
+    .home-scroll{
+        margin-left: 7.5rem;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .homeContent{
+        grid-template-columns: 0.5fr 3fr;
+        padding-top: 3.5rem;
+    }
+
+    .homeImg{
+        order: initial;
+        justify-self: initial;
+        width: 200px;
+        height: 200px;
+    }
+
+    .home-scroll{
+        display: none;
+    }
+  }
+
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .homeImg{
+        width: 180px;
+        height: 180px;
+    }
+  }
