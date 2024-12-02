@@ -38,7 +38,8 @@ export const Qualifications = () => {
                     <div className={toggleQualification === "experience" ? "qualificationContent qualificationContent-active" : "qualificationContent"}>
                         <QualificationData key="trainne" title="Trainne na Loopis Jr" subTitle="IFPB - Cajazeiras PB" data="08/2023 - 12/2023"/>
                         <QualificationData key="consultor" style="right" title="Consultor na Loopis Jr" subTitle="IFPB - Cajazeiras PB" data="01/2024 - 04/2024"/>
-                        <QualificationData key="gerente" title="Gerente de Projetos na Loopis Jr" subTitle="IFPB - Cajazeiras PB" data="03/2024 - present"/>
+                        <QualificationData key="gerente" title="Gerente de Projetos na Loopis Jr" subTitle="IFPB - Cajazeiras PB" data="03/2024 - 12/2024"/>
+                        <QualificationData key="junior" style="right" title="Desenvolvedor Full Stack Junior" subTitle="Suite Place - Palmas TO" data="11/2024 - present"/>
                     </div>
                 </div>
             </div>
