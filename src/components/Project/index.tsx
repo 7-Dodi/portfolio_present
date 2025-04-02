@@ -38,10 +38,12 @@ export const Project:React.FC<Props> = ({image, title, description, link, info})
                                 <p className="projetoModal-info">{infoItem}</p>
                             </li>
                         ))}
-                        <li className="projetoModal-projeto">
-                                <i className="uil uil-github-alt projetoModal-icon"></i>
-                                <p className="projetoModal-info projetoModal-link">Link do projeto:  <a href={link} target="_blank">{link}</a></p>
+                        {link && (
+                            <li className="projetoModal-projeto">
+                                    <i className="uil uil-github-alt projetoModal-icon"></i>
+                                    <p className="projetoModal-info projetoModal-link">Link do projeto:  <a href={link} target="_blank">{link}</a></p>
                             </li>
+                        )}
                     </ul>
                 </div>
             </div>

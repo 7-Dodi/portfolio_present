@@ -9,6 +9,12 @@ import book from "../assets/projects-image/mock-book-collection.png";
 import space from "../assets/projects-image/mock-space-defendes.png";
 import rick from "../assets/projects-image/mock-rick-morty.png";
 import sonic from "../assets/projects-image/mock-sonic.png";
+import asclepiusApp from "../assets/projects-image/mock-asclepius-APP.png";
+import asclepiusWeb from "../assets/projects-image/mock-asclepius-WEB.png";
+import bookCollection from "../assets/projects-image/mock-book-colection.png";
+import bookCollectionAPP from "../assets/projects-image/mock-book-collection-APP.png";
+import dietaIa from "../assets/projects-image/mock-dieta.IA.png";
+import jumpFesta from "../assets/projects-image/mock-jump-festa.png";
 
 interface Project {
     id?: number,
@@ -120,4 +126,61 @@ export const projectsData: Project[] = [
         category: ["all", "web"],
         link: "https://github.com/7-Dodi/Jogo_Sonic.git"
     },
+    {
+        id: 12,
+        title: "Asclepius APP",
+        description: "Projeto de Programação para Dispositivos Móveis: Desenvolvimento de uma APP, com TypeScript, React-Native, com ligação a uma API previamente desenvolvida no projeto de Programação para Web I.",
+        image: asclepiusApp,
+        info: ["Aplicação móvel desenvolvida com React-Native", "Uso de API externa", "Uso de TypeScript"],
+        category: ["all", "app"],
+    },
+    {
+        id: 13,
+        title: "Site Asclepius",
+        description: "O Asclepius-WEB é um sistema web desenvolvido como parte da disciplina Programação para Web 2 (PW2). Esse projeto foi criado com TypeScript e React, O objetivo deste sistema é fornecer uma interface web intuitiva para o gerenciamento de vacinação, permitindo aos usuários realizarem agendamentos, acompanharem registros e interagirem com suas informações de saúde de forma eficiente.",
+        image: asclepiusWeb,
+        info: ["Sistema web desenvolvido com React", "Uso de TypeScript", "Uso de API externa"],
+        category: ["all", "web"],
+    },
+    {
+        id: 14,
+        title: "Book Collection",
+        description: "O sistema Book Collection foi um projeto web desenvolvido para o meu Trabalho de Conclusão de Curso (TCC). O sistema Book Collection é uma rede social voltada para leitores, permitindo interação entre usuários, organização de leituras e descoberta de novas aventuras literárias.",
+        image: bookCollection,
+        info: ["Sistema web desenvolvido com React", "Uso de TypeScript", "Uso de API externa", "Uso de Inteligência Artificial"],
+        category: ["all", "web"],
+    },
+    {
+        id: 15,
+        title: "Book Collection APP",
+        description: "O sistema Book Collection foi um projeto web desenvolvido para o meu Trabalho de Conclusão de Curso (TCC). O sistema Book Collection é uma rede social voltada para leitores, permitindo interação entre usuários, organização de leituras e descoberta de novas aventuras literárias.",
+        image: bookCollectionAPP,
+        info: ["Aplicação móvel desenvolvida com React-Native", "Uso de TypeScript", "Uso de API externa", "Uso de Inteligência Artificial"],
+        category: ["all", "app"],
+    },
+    {
+        id: 16,
+        title: "Api de Tempo Real (Book Collection)",
+        description: "O sistema Book Collection foi um projeto web desenvolvido para o meu Trabalho de Conclusão de Curso (TCC). O sistema Book Collection é uma rede social voltada para leitores, permitindo interação entre usuários, organização de leituras e descoberta de novas aventuras literárias.",
+        image: apiRest,
+        info: ["API desenvolvida com Node.js", "Uso de TypeScript", "Uso de API externa", "Uso de Inteligência Artificial", "Uso de Web Sockets"],
+        category: ["all", "api"],
+    },
+    {
+        id: 17,
+        title: "Dieta.IA",
+        description: "Dieta.AI é um aplicativo móvel para a geração de dietas personalizadas usando a inteligência artificial da Google, Gemini AI. O usuário insere suas informações como nome, idade, altura, peso, sexo, nível de atividade física e objetivos, e o sistema utiliza a IA para gerar uma dieta completa, com detalhes de alimentos, horários de alimentação e suplementos sugeridos.",
+        image: dietaIa,
+        info: ["Aplicação móvel desenvolvida com React-Native", "Uso de TypeScript", "Uso de API externa", "Uso de Inteligência Artificial"],
+        category: ["all", "app"],
+        link: "https://github.com/7-Dodi/Dieta.IA.git"
+    },
+    {
+        id: 18,
+        title: "Jump Festa",
+        description: "JumpFesta é um aplicativo móvel que desenvolvi para a gestão de aluguéis de brinquedos infláveis, como pula-pulas e camas elásticas, para eventos e festas. O sistema foi utilizado pelo meu tio para otimizar o gerenciamento dos seus recursos, facilitando o controle de locações e tornando o processo mais eficiente.",
+        image: jumpFesta,
+        info: ["Aplicação móvel desenvolvida com React-Native", "Uso de TypeScript", "Uso de API externa", "Uso de Inteligência Artificial"],
+        category: ["all", "app"],
+    }
 ];

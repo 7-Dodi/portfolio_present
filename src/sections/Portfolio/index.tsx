@@ -28,7 +28,7 @@ export const Portfolio = () => {
                 </div>
 
                 <div className="porfolioProjetos grid">
-                    {filteredProjects.map((project)=>(
+                    {filteredProjects.reverse().map((project)=>(
                         <Project 
                             key={project.id}
                             image={project.image} 
