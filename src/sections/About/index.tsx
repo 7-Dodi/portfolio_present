@@ -17,11 +17,11 @@ export const About = () => {
                     <div className="aboutInfo grid">
                         <Info key="experience" title="Experiência" subtitle="3 anos estudando" icon="award"/>
                         <Info key="projects" title="Projetos Concluídos" subtitle="80 + projetos" icon="briefcase-alt"/>
-                        <Info key="stage" title="Estágio" subtitle="6 meses numa Empresa Jr." icon="support"/>
+                        <Info key="stage" title="Estágio" subtitle="+1 ano como desenvolvedor" icon="support"/>
                     </div>
 
                     <p className="aboutDescription">
-                        Sou um desenvolvedor full-stack, criando sistemas web com interface de usuário UI/UX. Sou estudante de Análise e Desenvolvimento de Sistemas (ADS), tenho alguns anos de experiência e muitos clientes estão satisfeitos com os projetos que realizei.
+                        Sou um desenvolvedor full-stack, criando sistemas web com interface de usuário UI/UX. Sou formado em Análise e Desenvolvimento de Sistemas (ADS) pelo Instituto Federal da Paraíba (IFPB), tenho alguns anos de experiência e muitos clientes estão satisfeitos com os projetos que realizei.
                     </p>
 
                     <a download="" href={CV} className="button button--flex">

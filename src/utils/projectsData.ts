@@ -15,6 +15,7 @@ import bookCollection from "../assets/projects-image/mock-book-colection.png";
 import bookCollectionAPP from "../assets/projects-image/mock-book-collection-APP.png";
 import dietaIa from "../assets/projects-image/mock-dieta.IA.png";
 import jumpFesta from "../assets/projects-image/mock-jump-festa.png";
+import novaStudio from "../assets/projects-image/novaStudio.png";
 
 interface Project {
     id?: number,
@@ -182,5 +183,14 @@ export const projectsData: Project[] = [
         image: jumpFesta,
         info: ["Aplicação móvel desenvolvida com React-Native", "Uso de TypeScript", "Uso de API externa", "Uso de Inteligência Artificial"],
         category: ["all", "app"],
+    },
+    {
+        id: 19,
+        title: "Nova Studio",
+        description: "A Nova Studio é uma empresa de desenvolvimento de software que fundei com o objetivo de criar soluções inovadoras e personalizadas para nossos clientes. Nossa missão é transformar ideias em realidade, oferecendo serviços de alta qualidade em desenvolvimento web, aplicativos móveis e consultoria tecnológica.",
+        image: novaStudio,
+        info: ["Empresa de desenvolvimento de software", "Focada em soluções personalizadas", "Serviços de alta qualidade"],
+        category: ["all", "web", "app"],
+        link: "https://novastudio.dev.br/"
     }
 ];
