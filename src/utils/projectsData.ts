@@ -4,7 +4,8 @@ import space from "../assets/projects-image/mock-space-defendes.png";
 import asclepiusApp from "../assets/projects-image/mock-asclepius-APP.png";
 import asclepiusWeb from "../assets/projects-image/mock-asclepius-WEB.png";
 import bookCollection from "../assets/projects-image/mock-book-colection.png";
-import bookCollectionAPP from "../assets/projects-image/mock-book-collection-APP.png";
+import bewear from "../assets/projects-image/mock-bewear.png";
+import suitePlace from "../assets/projects-image/mock-suite-place.png";
 import dietaIa from "../assets/projects-image/mock-dieta.IA.png";
 import novaStudio from "../assets/projects-image/novaStudio.png";
 
@@ -72,12 +73,20 @@ export const projectsData: Project[] = [
     },
     {
         id: 7,
-        title: "Book Collection APP",
-        description: "O sistema Book Collection foi um projeto web desenvolvido para o meu Trabalho de Conclusão de Curso (TCC). O sistema Book Collection é uma rede social voltada para leitores, permitindo interação entre usuários, organização de leituras e descoberta de novas aventuras literárias.",
-        image: bookCollectionAPP,
-        info: ["Aplicação móvel desenvolvida com React-Native", "Uso de TypeScript", "Uso de API externa", "Uso de Inteligência Artificial"],
-        category: ["all", "app"],
+        title: "BEWEAR E-commerce",
+        description: "Desenvolvi o BEWEAR E-commerce como projeto de aprendizado, criando um sistema completo de e-commerce desde a definição de requisitos até a implementação. O projeto inclui cadastro de produtos, carrinho de compras e integração de pagamentos, utilizando tecnologias modernas para front-end, back-end e banco de dados.",
+        image: bewear,
+        info: [
+            "Sistema web desenvolvido com Next.js",
+            "Uso de TypeScript",
+            "Integração de pagamentos com Stripe",
+            "Gerenciamento de banco de dados com Drizzle e Neon",
+            "Estilização com Tailwind CSS"
+        ],
+        category: ["all", "web"],
+        link: "https://github.com/7-Dodi/Bewear.git"
     },
+
     {
         id: 8,
         title: "Dieta.IA",
@@ -89,6 +98,21 @@ export const projectsData: Project[] = [
     },
     {
         id: 9,
+        title: "Suite Place",
+        description: "Participei do desenvolvimento da Suite Place, um ecossistema digital que unia soluções de e-commerce de imóveis (B2C) e sistemas de gestão imobiliária (B2B). Contribuí para a criação de um backend robusto em nuvem com AWS, garantindo escalabilidade e segurança, além de implementar integrações essenciais para o negócio.",
+        image: suitePlace,
+        info: [
+            "Sistema web desenvolvido com Next.js",
+            "Uso de TypeScript",
+            "Integração de pagamentos com Stripe",
+            "Infraestrutura e serviços em AWS",
+            "Modelagem de dados com Dynamoose (DynamoDB)"
+        ],
+        category: ["all", "web", "api"],
+        link: "https://suite.place/"
+    },
+    {
+        id: 10,
         title: "Nova Studio",
         description: "A Nova Studio é uma empresa de desenvolvimento de software que fundei com o objetivo de criar soluções inovadoras e personalizadas para nossos clientes. Nossa missão é transformar ideias em realidade, oferecendo serviços de alta qualidade em desenvolvimento web, aplicativos móveis e consultoria tecnológica.",
         image: novaStudio,
