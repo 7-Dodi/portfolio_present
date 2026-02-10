@@ -1,0 +1,66 @@
+export const skills = [
+  {
+    title: "Frontend",
+    items: [
+      { name: "HTML", level: "Avançado" },
+      { name: "CSS", level: "Avançado" },
+      { name: "JavaScript", level: "Avançado" },
+      { name: "React", level: "Intermediário" },
+      { name: "React Native", level: "Intermediário" },
+      { name: "Angular", level: "Básico" },
+      { name: "Vue", level: "Básico" },
+      { name: "Tailwind", level: "Básico" },
+      { name: "Next.js", level: "Básico" },
+      { name: "Sass", level: "Básico" },
+    ],
+  },
+  {
+    title: "Backend",
+    items: [
+      { name: "Node.js", level: "Intermediário" },
+      { name: "TypeScript", level: "Intermediário" },
+      { name: "Java", level: "Intermediário" },
+      { name: "C / C++", level: "Intermediário" },
+      { name: "Express", level: "Intermediário" },
+      { name: "Fastify", level: "Intermediário" },
+      { name: "NestJS", level: "Básico" },
+      { name: "Python", level: "Básico" },
+      { name: "PHP", level: "Básico" },
+      { name: "Prisma ORM", level: "Intermediário" },
+      { name: "Sequelize", level: "Intermediário" },
+    ],
+  },
+  {
+    title: "Databases",
+    items: [
+      { name: "PostgreSQL", level: "Intermediário" },
+      { name: "MySQL", level: "Intermediário" },
+      { name: "MongoDB", level: "Intermediário" },
+      { name: "Redis", level: "Básico" },
+      { name: "Neo4j", level: "Básico" },
+      { name: "DynamoDB", level: "Básico" },
+      { name: "Firebase", level: "Básico" },
+      { name: "GraphQL", level: "Básico" },
+    ],
+  },
+  {
+    title: "DevOps & Cloud",
+    items: [
+      { name: "Docker", level: "Intermediário" },
+      { name: "AWS", level: "Básico" },
+      { name: "CloudFormation", level: "Básico" },
+      { name: "Jenkins", level: "Básico" },
+      { name: "Azure", level: "Básico" },
+    ],
+  },
+  {
+    title: "Ferramentas & Workflow",
+    items: [
+      { name: "Git", level: "Intermediário" },
+      { name: "Jira", level: "Básico" },
+      { name: "Slack", level: "Básico" },
+      { name: "Trello", level: "Básico" },
+      { name: "Notion", level: "Básico" },
+    ],
+  },
+];
