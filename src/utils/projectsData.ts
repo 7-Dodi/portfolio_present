@@ -15,7 +15,7 @@ interface Project {
     id?: number,
     image?: string,
     title?: string,
-    description?: string,
+    description: string,
     info?: string[],
     link?: string,
     category?: string[],
@@ -174,7 +174,7 @@ export const projectsData: Project[] = [
     id: 11,
     title: "Book Collection Institucional",
     description:
-      "Book Collection é um projeto pessoal que cresceu comigo desde minhas aulas na universidade, onde aprendri a planejar funcionalidades, designers de interfaces, realizar testes e desenvolver interfaces com React e TypeScript. Atualmente, estou trabalhando em uma versão melhorada, desenvolvendo pela primeira o sistema em sua versão completa, desenvolvendo um app para Android, criando uma API e um site institucional.",
+      "O site institucional foi construído com <b>Next.js</b> para garantir performance e SEO de alta qualidade. Ele serve como o ponto de encontro oficial do projeto, apresentando as funcionalidades do app e oferecendo um canal direto de suporte via <b>EmailJS</b>. O design segue a identidade visual da <b>Nova Studio</b>, utilizando cores vibrantes e elementos que destacam o propósito do app, além de fornecer links diretos para a loja oficial do Android.",
     image: bookCollectionInstitucional,
     category: ["all", "web"],
     info: [
@@ -190,7 +190,7 @@ export const projectsData: Project[] = [
     id: 12,
     title: "Book Collection",
     description:
-      "Book Collection é um projeto pessoal que cresceu comigo desde minhas aulas na universidade, onde aprendri a planejar funcionalidades, designers de interfaces, realizar testes e desenvolver interfaces com React e TypeScript. Atualmente, estou trabalhando em uma versão melhorada, desenvolvendo pela primeira o sistema em sua versão completa, desenvolvendo um app para Android, criando uma API e um site institucional.",
+      "O <b>Book Collection</b> é a evolução de um projeto acadêmico que se tornou um produto real na <b>Play Store</b>. O app permite organizar bibliotecas pessoais, buscar títulos via API do Google Books e monitorar metas de leitura com indicadores visuais. Desenvolvido com <b>React Native</b> e <b>Expo</b>, o projeto conta com um backend sólido em <b>NestJS</b> e <b>PostgreSQL</b>, garantindo sincronização em tempo real e uma experiência fluida, acompanhada pelo mascote oficial, o Buki.",
     image: bookColllectionAPP,
     category: ["all", "app"],
     info: [
@@ -200,6 +200,6 @@ export const projectsData: Project[] = [
       "Implementação de Cron e Notificação",
       "Implementação de envio de e-mail",
     ],
-    link: "https://github.com/7-Dodi/Book-Collection.git",
+    link: "https://play.google.com/store/apps/details?id=com.novastudio.bookcollection",
   },
 ];
